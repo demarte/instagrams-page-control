@@ -15,6 +15,8 @@
 		222C9CBA23E4F53800955D87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222C9CB823E4F53800955D87 /* LaunchScreen.storyboard */; };
 		222C9CC523E4F53800955D87 /* InstagramDotIndicatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222C9CC423E4F53800955D87 /* InstagramDotIndicatorTests.swift */; };
 		222C9CD023E4F53800955D87 /* InstagramDotIndicatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222C9CCF23E4F53800955D87 /* InstagramDotIndicatorUITests.swift */; };
+		222C9CDE23E4F59300955D87 /* DotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222C9CDD23E4F59300955D87 /* DotView.swift */; };
+		222C9CE123E4F82500955D87 /* DotIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222C9CE023E4F82500955D87 /* DotIndicatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		222C9CCB23E4F53800955D87 /* InstagramDotIndicatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagramDotIndicatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		222C9CCF23E4F53800955D87 /* InstagramDotIndicatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramDotIndicatorUITests.swift; sourceTree = "<group>"; };
 		222C9CD123E4F53800955D87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		222C9CDD23E4F59300955D87 /* DotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotView.swift; sourceTree = "<group>"; };
+		222C9CE023E4F82500955D87 /* DotIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotIndicatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +105,7 @@
 			children = (
 				222C9CAD23E4F53600955D87 /* AppDelegate.swift */,
 				222C9CAF23E4F53600955D87 /* SceneDelegate.swift */,
-				222C9CB123E4F53600955D87 /* ContentView.swift */,
+				222C9CDF23E4F6A300955D87 /* Views */,
 				222C9CB323E4F53800955D87 /* Assets.xcassets */,
 				222C9CB823E4F53800955D87 /* LaunchScreen.storyboard */,
 				222C9CBB23E4F53800955D87 /* Info.plist */,
@@ -134,6 +138,16 @@
 				222C9CD123E4F53800955D87 /* Info.plist */,
 			);
 			path = InstagramDotIndicatorUITests;
+			sourceTree = "<group>";
+		};
+		222C9CDF23E4F6A300955D87 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				222C9CB123E4F53600955D87 /* ContentView.swift */,
+				222C9CE023E4F82500955D87 /* DotIndicatorView.swift */,
+				222C9CDD23E4F59300955D87 /* DotView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +283,8 @@
 			files = (
 				222C9CAE23E4F53600955D87 /* AppDelegate.swift in Sources */,
 				222C9CB023E4F53600955D87 /* SceneDelegate.swift in Sources */,
+				222C9CE123E4F82500955D87 /* DotIndicatorView.swift in Sources */,
+				222C9CDE23E4F59300955D87 /* DotView.swift in Sources */,
 				222C9CB223E4F53600955D87 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
